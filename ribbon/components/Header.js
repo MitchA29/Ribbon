@@ -3,7 +3,7 @@ import Icon from "@material-tailwind/react/Icon";
 
 function Header() {
   return (
-    <div className="sticky top-0 x-50 flex items-center px-4 py-2 shadow-md bg-white">
+    <header className="sticky top-0 x-50 flex items-center px-4 py-2 shadow-md bg-white">
         <Button
         color="gray"
         buttonType="outline"
@@ -37,7 +37,7 @@ function Header() {
         src="https://img.search.brave.com/oUL5FZmNkc4YnRFsueBFZKKfcVuFjy1Clhkgqheu1mU/rs:fit:980:980:1/g:ce/aHR0cHM6Ly9jZG4u/b25saW5ld2ViZm9u/dHMuY29tL3N2Zy9p/bWdfMTkxOTU4LnBu/Zw"
         alt=""
         />
-    </div>
+    </header>
   );
 }
 
